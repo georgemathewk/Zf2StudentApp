@@ -1,3 +1,26 @@
 <h1>
-    This is Module : Student
+    Students List
 </h1>
+ 
+<table border="1">
+    <thead>
+        <tr>
+            <th>No</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Marks</th>
+        <tr>
+    </thead>
+ 
+<?php
+$i=1;
+foreach($students as $student){
+    echo "<tr>";
+    echo "<td>" . $i++ . "</td>";
+    echo "<td>" . $student["name"] . "</td>";
+    echo "<td>" . $student["department"] . "</td>";
+    echo "<td>" . $student["marks"] . "</td>";
+    echo "</tr>";
+}
+?>
+</table>

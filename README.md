@@ -13,3 +13,6 @@ Articles
 
 
 * [Zend Framework2 - Creating module, controller, actions, views and routing]( http://wptrafficanalyzer.in/blog/zend-framework2-creating-module-controller-actions-views-and-routing "Zend Framework2 - Creating module, controller, actions, views and routing")
+
+
+* [Zend Framework2 - Getting data in View layer from action controller using ViewModel]( http://wptrafficanalyzer.in/blog/zend-framework2-getting-data-in-view-layer-from-action-controller-using-viewmodel "Zend Framework2 - Getting data in View layer from action controller using ViewModel")
