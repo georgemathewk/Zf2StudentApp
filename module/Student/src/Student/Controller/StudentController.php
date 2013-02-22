@@ -5,7 +5,8 @@ use Zend\View\Model\ViewModel;
 
 class StudentController extends AbstractActionController{
     public function indexAction(){
-    	return new ViewModel(array(
+    	$this->layout("layout/student_layout");
+    	return new ViewModel(array(    			
     			'students'=>array(
     					array(
     							"name"=>"A Mitra",

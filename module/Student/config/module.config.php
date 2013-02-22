@@ -27,6 +27,10 @@ return array(
     ),
 
     'view_manager'=>array(
+    	/* Defining layout file for index action of StudentController */
+    		'template_map' => array(
+    			'layout/student_layout' => __DIR__ . '/../view/layout/student_layout.phtml'
+    	),
         'template_path_stack'=>array(
             'student'=>__DIR__ . '/../view'
         )

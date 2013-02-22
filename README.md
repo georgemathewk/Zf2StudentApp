@@ -16,3 +16,6 @@ Articles
 
 
 * [Zend Framework2 - Getting data in View layer from action controller using ViewModel]( http://wptrafficanalyzer.in/blog/zend-framework2-getting-data-in-view-layer-from-action-controller-using-viewmodel "Zend Framework2 - Getting data in View layer from action controller using ViewModel")
+
+
+* [Different Layouts for different Controller Actions in Zend Framework2]( http://wptrafficanalyzer.in/blog/different-layouts-for-different-controller-actions-in-zend-framework2 "Different Layouts for different Controller Actions in Zend Framework2")
