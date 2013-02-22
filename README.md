@@ -11,3 +11,5 @@ Articles
 
 * [Starting up a Zend Framework 2 application]( http://wptrafficanalyzer.in/blog/starting-up-a-zend-framework-2-application "Starting up a Zend Framework 2 application")
 
+
+* [Zend Framework2 - Creating module, controller, actions, views and routing]( http://wptrafficanalyzer.in/blog/zend-framework2-creating-module-controller-actions-views-and-routing "Zend Framework2 - Creating module, controller, actions, views and routing")
