@@ -19,3 +19,6 @@ Articles
 
 
 * [Different Layouts for different Controller Actions in Zend Framework2]( http://wptrafficanalyzer.in/blog/different-layouts-for-different-controller-actions-in-zend-framework2 "Different Layouts for different Controller Actions in Zend Framework2")
+
+
+* [Setup model and table classes to fetch data from MySQL database using TableGateway in Zend Framework2]( http://wptrafficanalyzer.in/blog/setup-model-and-table-classes-to-fetch-data-from-mysql-database-using-tablegateway-in-zend-framework2 "Setup model and table classes to fetch data from MySQL database using TableGateway in Zend Framework2")

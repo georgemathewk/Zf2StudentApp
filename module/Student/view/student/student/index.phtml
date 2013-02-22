@@ -1,7 +1,7 @@
 <h1>
     Students List
 </h1>
- 
+
 <table border="1">
     <thead>
         <tr>
@@ -9,18 +9,22 @@
             <th>Name</th>
             <th>Department</th>
             <th>Marks</th>
-        <tr>
+        </tr>
     </thead>
- 
+    <tbody>
+
 <?php
+
 $i=1;
 foreach($students as $student){
     echo "<tr>";
     echo "<td>" . $i++ . "</td>";
-    echo "<td>" . $student["name"] . "</td>";
-    echo "<td>" . $student["department"] . "</td>";
-    echo "<td>" . $student["marks"] . "</td>";
+    echo "<td>" . $student->name . "</td>";
+    echo "<td>" . $student->department . "</td>";
+    echo "<td>" . $student->marks . "</td>";
     echo "</tr>";
 }
 ?>
+
+    </tbody>
 </table>
