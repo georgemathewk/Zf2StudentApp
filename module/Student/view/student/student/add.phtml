@@ -1,0 +1,31 @@
+<?php
+	// Getting form object from add action of student controller
+	$form = $this->form;
+	
+	// Setting the value for 'action' attribute
+	$form->setAttribute('action', $this->url('student', array('action' => 'add')));
+	
+	// Ensures state is ready for use
+	$form->prepare();
+
+	// Opening the form tag
+	echo $this->form()->openTag($form);
+	
+	// Hidden Element to store id
+	echo $this->formHidden($form->get('id'));
+	
+	// TextBox element to input Name of student
+	echo $this->formRow($form->get('name'));
+	
+	// TextBox element to input Department
+	echo $this->formRow($form->get('department'));
+	
+	// TextBox element to input Marks
+	echo $this->formRow($form->get('marks'));
+	
+	// Submit button
+	echo $this->formSubmit($form->get('submit'));
+	
+	// Closing the form tag
+	echo $this->form()->closeTag();
+?>

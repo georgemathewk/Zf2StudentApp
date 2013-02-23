@@ -19,4 +19,15 @@ class StudentTable{
 		$resultSet = $this->tableGateway->select();
 		return $resultSet;
 	}
+	
+	// Inserting User input data via Form Submission	
+	public function saveStudent(Student $student){
+		$data = array(
+				'name' => $student->name,
+				'department'  => $student->department,
+				'marks'  => $student->marks,
+		);
+		$this->tableGateway->insert($data);
+	}	
+	
 }
