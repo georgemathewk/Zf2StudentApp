@@ -22,3 +22,6 @@ Articles
 
 
 * [Setup model and table classes to fetch data from MySQL database using TableGateway in Zend Framework2]( http://wptrafficanalyzer.in/blog/setup-model-and-table-classes-to-fetch-data-from-mysql-database-using-tablegateway-in-zend-framework2 "Setup model and table classes to fetch data from MySQL database using TableGateway in Zend Framework2")
+
+
+* [Creating HTML forms in Zend Framework 2 application]( http://wptrafficanalyzer.in/blog/creating-html-forms-in-zend-framework-2-application "Creating HTML forms in Zend Framework 2 application")
